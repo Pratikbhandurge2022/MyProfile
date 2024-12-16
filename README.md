@@ -34,12 +34,5 @@ Crafting innovative web applications that empower businesses, I bring 2.6+ years
 
 ---
 
-### **Latest Blog Posts**
-<div align="center">
-  <img src="https://github-read-medium-git-main.pahlevikun.vercel.app/latest?limit=4" alt="Latest Blog Posts" />
-</div>
-
----
-
 ### **Let's Collaborate!**
 💬 Whether you're interested in creating cutting-edge software solutions or just exploring possibilities, feel free to connect. Together, we can drive innovative projects forward!
