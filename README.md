@@ -26,69 +26,6 @@ Crafting innovative web applications that empower businesses, I bring 2.6+ years
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Pratikbhandurge2022&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="Top Languages" />
 </div>
 
----
-
-### **Snake Animation**
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Pratikbhandurge2022/Pratikbhandurge2022/output/snake.svg" alt="Snake animation" />
-</p>
-
-#### **Snake Animation Workflow**
-```yaml
-name: Generate snake animation
-
-on:
-  schedule: # execute every 12 hours
-    - cron: "* */12 * * *"
-
-  workflow_dispatch:
-
-  push:
-    branches:
-    - master
-
-jobs:
-  generate:
-    permissions:
-      contents: write
-    runs-on: ubuntu-latest
-    timeout-minutes: 5
-
-    steps:
-      - name: generate snake.svg
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: dist/snake.svg?palette=github-dark
-
-
-      - name: push snake.svg to the output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
----
-
-### **Connect With Me**
-<div align="left">
-  <a href="https://www.linkedin.com/in/pratikbhandurge2022"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="LinkedIn" /></a>
-  <a href="https://twitter.com/yourtwitterhandle"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/twitter/default.svg" width="52" height="40" alt="Twitter" /></a>
-  <a href="https://discord.gg/yourdiscordlink"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="52" height="40" alt="Discord" /></a>
-  <a href="https://www.youtube.com/channel/yourchannelid"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/youtube/default.svg" width="52" height="40" alt="YouTube" /></a>
-</div>
-
----
-
-### **Spotify: Recently Played**
-<div align="center">
-  <img src="https://spotify-recently-played-readme.vercel.app/api?count=5" alt="Spotify Recently Played" />
-</div>
-
----
 
 ### **Profile Visitor Count**
 <div align="center">
