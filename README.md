@@ -28,10 +28,11 @@ Crafting innovative web applications that empower businesses, I bring 2.6+ years
 
 ---
 
-### **Snake Animation**
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Pratikbhandurge2022/Pratikbhandurge2022/output/snake.svg" alt="Snake animation" />
-</p>
+###
+
+<img src="https://raw.githubusercontent.com/Pratikbhandurge2022/Pratikbhandurge2022/output/snake.svg" alt="Snake animation" />
+
+###
 
 ---
 
